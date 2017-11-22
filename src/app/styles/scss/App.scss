@@ -1,0 +1,18 @@
+$bg-color: rgb(249,249,251);
+$top-grad-color: rgb(33,36,41);	
+
+.b-home {
+	background-color: $bg-color;
+}
+
+.b-top-grad {
+	position: absolute;
+	top: 0;
+	left: 0; 
+	right: 0;
+
+
+	height: 200px;
+	width: 100%;
+	background-color: $top-grad-color;
+}

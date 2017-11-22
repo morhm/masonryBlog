@@ -1,0 +1,123 @@
+$post-color: rgb(255,255,255);	
+$text-color-light: rgb(153,153,153);
+$post-border-color: rgb(241,241,243);	
+$post-interaction-border: rgb(247,247,247);	
+
+.grid-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	position: relative;
+	float: left;
+	width: 22%;
+	min-width: 300px;
+	padding: 15px;
+	margin: 20px;
+	background-color: $post-color; 
+
+	&:hover {
+		box-shadow: 0 4px 8px 4px rgba(0,0,0,0.2);
+	}
+}
+
+.card-img-top {
+	position: relative;
+}
+
+
+.card-block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	position: relative;
+
+	p {
+		margin: 0;
+	}
+
+	.card-topic {
+		margin-top: 30px;
+		color: $text-color-light;
+		text-transform: uppercase;
+		font-size: 12px;
+		line-height: 2.4em;
+		font-weight: lighter;
+	}
+
+	.card-title {
+		color: rgb(33,33,33);
+		text-transform: uppercase;
+		font-weight: bold;
+		letter-spacing:  .05em;
+	}
+
+	.card-text.post-date {
+		color: $text-color-light;
+		text-transform: uppercase;
+		font-size: 12px;
+		line-height: 2.4em;
+		font-weight: lighter;
+	}
+
+	.card-text.post-content-sample {
+		color: $text-color-light;
+		margin: 20px;
+		margin-top: 20px;
+		line-height: 1.5em;
+		font-weight: lighter;
+	}
+
+	a {
+		margin: 25px 0;
+
+		background-color: white;
+		border: 1px solid $text-color-light;
+		border-radius: 0;
+		border-top: none;
+		border-bottom: none;
+		color: rgb(33,33,33);
+
+		font-weight: lighter;
+	}
+
+	.post-icon {
+		position: absolute;
+		top: 0;
+		margin-top: -25px;
+		
+
+		height: 30px;
+		width: 30px;
+		background-color: black;
+	}
+}
+
+.post-interactions {
+
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	align-self: stretch;
+
+
+
+	padding: 5px 10px;
+	border-top: 1px solid $post-interaction-border;
+	color: $text-color-light;
+	background-color: $post-color;
+	font-weight: lighter;
+
+	p {
+		
+		margin: auto;
+		margin-left: 0;
+	}
+
+	img {
+		padding: 5px 5px;
+	}
+}
+
+

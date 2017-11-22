@@ -1,0 +1,35 @@
+$nav-bg-color: rgb(33,36,41);	
+$nav-border-color: rgb(50,51,53);	
+
+.blognav-component {
+	position: relative;
+	height: 50px;
+
+	margin-left: 20px;
+	margin-right: 20px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	
+	background-color: $nav-bg-color;
+	color: white;
+
+	.bn-menu-items {
+		align-self: stretch;
+
+		display: flex;
+		align-items: stretch;
+
+		span {
+			display: flex;
+			align-items: center;
+			height: 40px;
+			border: 1px solid $nav-border-color;
+			border-top: none;
+			border-bottom: none;
+			padding: 0px 12px 0px 12px;
+		}
+	}
+}

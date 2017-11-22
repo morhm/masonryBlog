@@ -1,0 +1,14 @@
+$bg-color: rgb(249,249,251);
+
+.blogposts-component {
+	position: relative;
+	width: 100%;
+	background-color: $bg-color;
+	padding: 20px 0;
+}
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}

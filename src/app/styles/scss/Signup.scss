@@ -1,0 +1,43 @@
+$signup-bg-color: rgb(247,247,247);	
+$subscribe-button-color: rgb(33,33,33);	
+$input-border-color: rgb(243,243,243);	
+
+.signup-component {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	position: relative;
+	background-color: $signup-bg-color;
+	padding: 40px 20px;
+	height: 50px;
+
+	input {
+		flex-grow: 1.5;
+
+		border: 1px solid $input-border-color;
+		padding: 10px 10px;
+		margin: 0 20px;
+		font-size: 12px;
+	}
+
+	p {
+		flex-grow: .75;
+
+	}
+
+	button {
+		flex-grow: .75;
+
+		background-color: $subscribe-button-color;
+		padding: 14px 20px;
+		color: white;
+		text-transform: uppercase;
+		font-size: 12px;
+		letter-spacing: .3em;
+	}
+}
+
+.signup-item {
+	margin: 0 5px;
+}
