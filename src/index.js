@@ -16,8 +16,10 @@ $(document).ready(function() {
 });
 
 ReactDOM.render(
-  <Router history={browserHistory}>
-    <Route path="/" component={Main}/>
-  </Router>,
+  <Main />,
   document.getElementById('root')
 );
+
+// <Router history={browserHistory}>
+//     <Route path="/" component={Main}/>
+//   </Router>
