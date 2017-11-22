@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,mBAAoB;EACnB,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,MAAM;EAEd,QAAQ,EAAE,MAAM",
+"sources": ["../scss/BlogBody.scss"],
+"names": [],
+"file": "BlogBody.css"
+}
