@@ -1,0 +1,12 @@
+.blogposts-component {
+  position: relative;
+  width: 100%;
+  background-color: #f9f9fb;
+  padding: 20px 0; }
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+/*# sourceMappingURL=BlogPosts.css.map */
