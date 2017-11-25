@@ -1,0 +1,24 @@
+.post-root {
+	position: absolute;
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	padding-top: 100px;
+}
+
+.post-content {
+	position: sticky;
+	padding: 20px;
+	top: 100px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 1011;
+	background-color: white;
+}
+
+.post-img {
+	max-height: 300px;
+	max-width: 400px;
+}

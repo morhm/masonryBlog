@@ -1,16 +1,17 @@
 {
   "dependencies": {
+    "axios": "^0.15.3",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-router": "^3.0.2",
-    "axios": "^0.15.3"
+    "react-router": "^4.0.0",
+    "react-router-dom": "^4.2.2"
   },
   "devDependencies": {
     "react-addons-test-utils": "^15.4.2",
     "@types/react": "^15.0.11",
     "@types/react-dom": "^0.14.23",
     "@types/react-addons-test-utils": "^0.14.17",
-    "@types/react-router": "^3.0.3",
+    "@types/react-router": "^4.0.0",
     "del": "^2.2.2",
     "gulp": "gulpjs/gulp#4ed9a4a3275559c73a396eff7e1fde3824951ebb",
     "gulp-hub": "frankwallis/gulp-hub#d461b9c700df9010d0a8694e4af1fb96d9f38bf4",
@@ -70,8 +71,7 @@
       "browser": true,
       "jasmine": true
     },
-    "extends": [
-    ],
+    "extends": [],
     "parser": "babel-eslint"
   }
 }

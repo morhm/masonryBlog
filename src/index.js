@@ -2,7 +2,7 @@ require('babel-polyfill');
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {Router, Route, browserHistory} from 'react-router';
+import {Route, BrowserRouter as Router} from 'react-router-dom';
 
 import Main from './app/main';
 
@@ -16,7 +16,9 @@ $(document).ready(function() {
 });
 
 ReactDOM.render(
-  <Main />,
+  <Router>
+    <Route path="/" component={Main} />
+  </Router>,
   document.getElementById('root')
 );
 
