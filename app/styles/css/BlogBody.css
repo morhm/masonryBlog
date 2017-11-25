@@ -1,6 +1,7 @@
 .blogbody-component {
   position: relative;
   margin: 0 20px;
-  overflow: scroll; }
+  min-height: 100%;
+}
 
 /*# sourceMappingURL=BlogBody.css.map */
